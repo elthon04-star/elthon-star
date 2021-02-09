@@ -1,0 +1,10 @@
+apt update $$ apt upgrade
+pkg install git
+pkg install python
+git clone https://github.com/maldevel/IPGeoLocation
+ls
+cd IPGeoLocation
+ls
+chomd +x *
+ls
+python LPGeoLocation
