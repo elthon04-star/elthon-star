@@ -1,0 +1,23 @@
+
+apt upgrade && apt update
+pkg install python
+pkg install python2
+pkg install python3
+pkg install git
+pkg install get
+
+git clone https://github.com/maldevel/IPGeoLocation
+ls
+cd IPGolocation
+ls
+chmod +x *
+ls
+
+pip3 install -r requirements.txt --user if pip3 is missing:
+
+apt-get install python3-setuptools easy_install3 pip
+
+pip3 install -r requirements.txt
+
+python ipgeolocation -t (IP DA VITIMA SEM O PARENTES)
+
