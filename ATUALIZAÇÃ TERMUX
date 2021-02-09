@@ -1,0 +1,13 @@
+ATUALIZACAO DO TERMUX....
+
+apt upgrade && apt updade 
+pip install --upgrade pip
+pkg install <query>
+pkg install <package>
+pkg upgrade
+
+ADICIONAL REPOSITORIO...
+
+pkg install root-repo
+pkg install unstable-repo
+pkg install x11-repo
